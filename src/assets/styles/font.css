@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Visuelt Pro';
+    src: url('/assets/VisueltPro/VisueltPro-BoldItalic.ttf');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Visuelt Pro';
+    src: url('/assets/VisueltPro/VisueltPro-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Visuelt Pro';
+    src: url('/assets/VisueltPro/VisueltPro-Black-Italic.ttf');
+    /* font-weight: bolder; */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Visuelt Pro';
+    src: url('/assets/VisueltPro/VisueltPro-Black.ttf');
+    /* font-weight: bolder; */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Visuelt Pro';
+    src: url('/assets/VisueltPro/VisueltPro-LightItalic.ttf');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Visuelt Pro';
+    src: url('/assets/VisueltPro/VisueltPro-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Visuelt Pro';
+    src: url('/assets/VisueltPro/VisueltPro-MediumItalic.ttf');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Visuelt Pro';
+    src: url('/assets/VisueltPro/VisueltPro-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Visuelt Pro';
+    src: url('/assets/VisueltPro/VisueltPro-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Markazi Text';
+    src: url('/assets/MarkaziText/MarkaziText-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Markazi Text';
+    src: url('/assets/MarkaziText/MarkaziText-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Markazi Text';
+    src: url('/assets/MarkaziText/MarkaziText-SemiBold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Markazi Text';
+    src: url('/assets/MarkaziText/MarkaziText-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.visuelt {
+    font-family: 'Visuelt Pro';
+}
+
+.markazi {
+    font-family: 'Markazi Text';
+}

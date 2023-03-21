@@ -1,0 +1,26 @@
+module.exports = {
+    theme: {
+        colors: {
+            'dark-blue': '#052C4C',
+            blue: '#2895F0',
+            'light-blue': '#B5D5DD',
+            'pale-blue': '#2895F0',
+            'gray-1': '#333333',
+            'gray-2': '#424B4D',
+            'gray-3': '#444647',
+            smoke: '#F5F6FA',
+            green: '#367587',
+            'light-green': '#4795AB',
+            'deep-green': '#2F6B7C',
+            white: '#FFFFFF',
+            light: '#F5F6FA',
+            transparent: 'transparent',
+            black: '#000000',
+            red: '#EB5757',
+            snow: '#fbfbfc',
+            'smoke-dark': '#D3DCE6',
+            grey: '#111111',
+            'grey-100': '#828282',
+        },
+    },
+}

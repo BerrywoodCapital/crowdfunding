@@ -1,0 +1,84 @@
+backend:
+    name: git-gateway
+    branch: master # Branch to update (optional; defaults to master)
+media_folder: 'static/uploads'
+public_folder: 'uploads'
+collections:
+    - name: 'hero-section'
+      label: 'Hero Section'
+      folder: '_pages/Hero'
+      slug: '{{ slug }}'
+      delete: false
+      fields:
+          - { label: 'Top text', name: 'coming-soon', widget: 'string', default: 'Coming Soon' }
+          - label: 'Slider Text'
+            name: slidetext
+            widget: 'list'
+            fields:
+                - label: Header
+                  name: 'header'
+                  widget: 'object'
+                  fields:
+                      - { label: 'Large Text', name: large_text, widget: 'string' }
+                      - { label: 'Sub Text', name: sub_text, widget: 'string' }
+          - { label: 'Featured Image', name: 'featured-image', widget: 'image' }
+    - name: 'campaign-section'
+      label: 'Campaign Section'
+      folder: '_pages/Campaign'
+      slug: '{{ slug }}'
+      delete: false
+      fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Sub Text', name: 'subText', widget: 'string' }
+          - { label: 'Button Text', name: 'buttonText', widget: 'string' }
+          - { label: 'Image', name: 'image', widget: 'image' }
+    - name: 'how-it-works-section'
+      label: 'How it works Section'
+      folder: '_pages/How-It-Works'
+      slug: '{{ slug }}'
+      delete: false
+      fields:
+          - { label: 'Title', name: title, widget: 'string' }
+          - { label: 'Sub Title', name: sub-title, widget: 'string' }
+          - label: Steps
+            name: steps
+            widget: 'list'
+            fields:
+                - label: Step
+                  name: step
+                  widget: 'object'
+                  fields:
+                      - { label: 'icon', name: 'icon', widget: 'image' }
+                      - { label: 'text', name: 'text', widget: 'string' }
+    - name: 'privacy-policy'
+      label: 'Privacy Policy'
+      folder: '_pages/Privacy-Policy'
+      slug: '{{ slug }}'
+      delete: false
+      fields:
+          - { label: 'Title', name: 'title', default: 'Privacy Policy Content', widget: 'string' }
+          - { label: Body, name: 'body', widget: markdown }
+    - name: 'metadata'
+      label: 'Meta Data'
+      folder: '_pages/MetaData'
+      slug: '{{slug}}'
+      delete: false
+      fields:
+          - { label: 'Title', name: 'title', default: 'Website meta data', widget: 'string' }
+          - { label: 'Light Logo', name: 'logo', widget: 'image' }
+          - { label: 'Dark Logo', name: 'footer-logo', widget: 'image' }
+          - { label: 'Copyright Text', name: 'copyright-text', widget: 'string' }
+          - { label: 'Address', name: 'address', widget: 'string' }
+          - { label: 'Disclaimer', name: 'extra-info', widget: 'string' }
+    - name: 'why-crunch-start'
+      label: 'Why Crunchstart'
+      folder: '_pages/WhyCrunchStart'
+      slug: '{{slug}}'
+      delete: false
+      fields:
+          - { label: 'Title', name: 'title', default: 'Why Crunchstart', widget: 'string' }
+          - label: Info
+            name: 'list'
+            widget: list
+            fields:
+                - { label: 'Content', name: 'text', widget: 'string' }
